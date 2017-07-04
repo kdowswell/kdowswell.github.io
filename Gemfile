@@ -1,5 +1,8 @@
 source "https://rubygems.org"
 
+# bundle exec jekyll serve
+
+
 # gem "github-pages", group: :jekyll_plugins
 gem "jekyll", "3.4.3"
 
