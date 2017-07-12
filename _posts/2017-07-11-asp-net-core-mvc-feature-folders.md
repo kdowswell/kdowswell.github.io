@@ -35,7 +35,7 @@ Your project should look like this:
 
 ![project 1](/assets/posts/2017-07-11-asp-net-core-mvc-feature-folders/Project1.jpg)
 
-### Step 2 - Add feature Infrastructure Files!
+### Step 2 - Add feature Infrastructure Files
 
 In your web app, add the following files. I put mine in a Infrastructure/FeatureFolders/ folder
 
