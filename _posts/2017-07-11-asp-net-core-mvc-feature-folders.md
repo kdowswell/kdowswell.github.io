@@ -154,7 +154,7 @@ using JetBrains.Annotations;
 ### Feature Folder Areas
 I've seen different variations that people have done to nest related items in their MVC projects. One option is to have a Features/ root and an Areas/ root to allow you to leverage the built in areas feature. I have preferred to keep the more complex sections nested with my other features like below:
 
-![Feature Folder Areas](/assets/posts/2017-07-11-asp-net-core-mvc-feature-folders/TroubleTickets.jpg)
+![Feature Folder Areas](/assets/posts/2017-07-11-asp-net-core-mvc-feature-folders/troubletickets.jpg)
 
 Nesting folders like this will mean you have to annotate your controllers with an Area attribute.
 
