@@ -11,9 +11,9 @@ tags:
 
 The default ASP.NET Core MVC project templates generate a project template with Models, Views, and Controllers all separated into their respective folders. This default MVC structure can be difficult to maintain when project sizes get large and you've been maintaining your website for an extended period of time.
 
-To help with this issue, the concept of Feature Folders allows you to group your Models, Views, and Controllers all together. This aligns with the concepts of how modern Agile software development teams deliver software in short Sprints targeting specific features for development tasks.
+To help with this issue, the concept of Feature Folders allows you to group your Models, Views, and Controllers all together. This aligns really well with the concepts of how Agile software development where teams deliver software in short Sprints targeting specific features for development tasks.
 
-Let's jump into an example converting the default template to use feature folders!
+Let's jump into an example converting the default template for ASP.NET Core MVC to use feature folders!
 
 ## Example
 
@@ -68,7 +68,7 @@ public class FeatureViewLocationExpander : IViewLocationExpander
         yield return "/Features/{1}/{0}.cshtml";
         yield return "/Features/{1}/Views/{0}.cshtml";
 
-        //Feature Features
+        //Feature Areas
         yield return "/Features/{2}/{1}/{0}.cshtml";
         yield return "/Features/{2}/{1}/Views/{0}.cshtml";
         yield return "/Features/{2}/Shared/{0}.cshtml";
@@ -124,9 +124,9 @@ public IActionResult Index()
 }
 ```
 
-There might be a better way of doing this but for now this is how I like doing it.
+There might be a better way of doing this but for now this is how I like doing it. I like that it gives you an easy way to find a view corresponding to a controller.
 
-Note: if you use Resharper, it doesn't recognize these views in the Features folders. So you have to do one additional step to get Resharper intillisense for the views. Add AssemblyAttributes.cs to the root of your project with the following:
+Note: if you use Resharper, it doesn't recognize these views in the Features folders. So you have to do one additional step to get Resharper IntelliSense for the views. Add AssemblyAttributes.cs to the root of your project with the following:
 
 ```
 using JetBrains.Annotations;
@@ -151,18 +151,41 @@ using JetBrains.Annotations;
 [assembly: AspMvcAreaMasterLocationFormat(@"~\Features\{2}")]
 ```
 
+### Feature Folder Areas
+I've seen different variations that people have done to nest related items in their MVC projects. One option is to have a Features/ root and an Areas/ root to allow you to leverage the built in areas feature. I have preferred to keep the more complex sections nested with my other features like below:
+
+![Feature Folder Areas](/assets/posts/2017-07-11-asp-net-core-mvc-feature-folders/TroubleTickets.jpg)
+
+Nesting folders like this will mean you have to annotate your controllers with an Area attribute.
+
+```
+[Area("TroubleTickets")]
+public class SubmitController : Controller
+{
+    public IActionResult Index()
+    {
+        return View("Submit");
+    }
+
+    [HttpPost]
+    public IActionResult Submit(SubmitCommand command)
+    {
+        //Send command
+
+        return RedirectToAction("Index", "List", new { area = "TroubleTickets" });
+    }
+}
+```
+
+This Trouble Tickets area also demonstrates how I would like to have my Commands and Queries in my feature folders.
+
 ### GitHub Repo
 To view the full source code from this post please visit <https://github.com/kdowswell/asp-net-core-mvc-feature-folders>.
 
 ## Summary
-So now you are all set up to begin using feature folders in your own web app. This is a very basic example. But it allows for a much better coding experience and organization structure as your project sizes grow.
+So now you are all set up to begin using feature folders in your own web app. I think feature folders allows for a better coding experience and better maintainability over time as your project size increases.
 
 If this post helped you please share via the social media links below. Thanks!
 
 ## Tools
 Since this post is on folders and files. A **must have** extension you should get is [Add New File](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.AddNewFile). This extension saves me tons of time. And overall it's just a better experience than using the built in Visual Studio "New Item" process. I use it to create folders and files all day while using VS.
-
-## Additional Resources
-
-
-
