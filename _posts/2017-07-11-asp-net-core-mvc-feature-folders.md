@@ -29,11 +29,11 @@ Let's jump into an example converting the default template to use feature folder
 ![create project 1](/assets/posts/2017-07-11-asp-net-core-mvc-feature-folders/CreateProj1.jpg)
 4. Continue to next step.
 5. Choose Web Application with no authentication.
-![create project 2](/assets/posts/2017-07-11-asp-net-core-mvc-feature-folders/CreateProj2.png)
+![create project 2](/assets/posts/2017-07-11-asp-net-core-mvc-feature-folders/CreateProj2.jpg)
 
 Your project should look like this:
 
-![project 1](/assets/posts/2017-07-11-asp-net-core-mvc-feature-folders/Project1.png)
+![project 1](/assets/posts/2017-07-11-asp-net-core-mvc-feature-folders/Project1.jpg)
 
 ### Step 2 - Add feature Infrastructure Files!
 
@@ -111,7 +111,7 @@ services.AddMvc().AddFeatureFolders();
 
 Now Simply add a "Features" folder at the root of your web app. Then move files from the generated site template into appropriate folders.
 
-![project 2](/assets/posts/2017-07-11-asp-net-core-mvc-feature-folders/Project2.png)
+![project 2](/assets/posts/2017-07-11-asp-net-core-mvc-feature-folders/Project2.jpg)
 
 In this example I've used the controller name as the view name. doing this you must specify the view returned from the Index action
 
