@@ -44,14 +44,14 @@ naming conventions:
     * features/######-short-title-of-work-item
     * spikes/######-short-title-of-work-item
 
-_Associate work item(s) to feature branch when creating branch._
+    _Associate work item(s) to feature branch when creating branch._
 
-2.Run git commands to see new branch and switch to it
-  ```
-  git checkout dev 
-  git pull
-  git checkout my-feature-branch-name
-  ```
+2. Run git commands to see new branch and switch to it
+    ```
+    git checkout dev 
+    git pull
+    git checkout my-feature-branch-name
+    ```
 
 ### New sprint branch Command-Line Method
 New sprint has started and you want to start working on a feature branch without creating a branch on VSTS first.
