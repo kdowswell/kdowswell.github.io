@@ -7,10 +7,7 @@ tags:
   - Jekyll
 ---
 
-
-<!-- # Jekyll on GitHub Pages
-
-Start blogging today... For Free! -->
+![header](/assets/posts/2017-08-08-jekyll-on-github-pages/header.jpg)
 
 ## Introduction
 
