@@ -66,8 +66,8 @@ git push -u origin master
 
 ## Resources
 
-<https://jekyllrb.com/>
-<https://pages.github.com/>
-<https://jekyllrb.com/docs/windows/>
-<https://kramdown.gettalong.org/syntax.html>
-<https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf>
+* <https://jekyllrb.com/>
+* <https://pages.github.com/>
+* <https://jekyllrb.com/docs/windows/>
+* <https://kramdown.gettalong.org/syntax.html>
+* <https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf>
