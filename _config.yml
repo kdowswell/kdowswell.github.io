@@ -82,7 +82,7 @@ author:
   bio              : "Software Developer, Golfer, Photographer"
   location         : "USA"
   email            : "kdowswell@gmail.com"
-  uri              : "/about"
+  uri              : 
   bitbucket        :
   codepen          :
   dribbble         :
@@ -111,6 +111,7 @@ author:
 include:
   - .htaccess
   - _pages
+
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -244,3 +245,10 @@ defaults:
       comments: # true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
