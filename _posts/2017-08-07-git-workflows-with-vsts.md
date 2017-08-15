@@ -14,27 +14,6 @@ Recently my team at work migrated to git from TFS for our [VSTS](https://www.vis
 
 ## Git Scenario Workflows
 
-### Clear previous branches from PC
-New sprint has started and you need to remove feature/bug/change branches that were added to your pc during the previous sprint.
-
-#### Remove remote branches
-```
-git branch -r     
-     *to see remote branches on your local pc
-git remote prune origin
-git branch -r
-    *to verify changes were made
-```
-
-#### Remove local branches
-```
-git branch
-    *to see local branches on your pc
-git branch --merged | grep -v "\*" | xargs -n 1 git branch -d
-git branch
-    *to verify local branches were removed
-```
-
 ### New sprint branch VSTS Method
 New sprint has started and you need to see remote branches on your pc that have been added to the VSTS git repo
 1. Create feature branch in VSTS from dev
@@ -111,6 +90,27 @@ Use VSTS pull request feature in the branches area to submit a request from your
 
 ### Pull Request dev -> master
 When we do pull requests from dev to master we need to make sure we click that checkbox to "squash" changes when we do the complete on the pull request. this makes TeamCity only see one commit and make one build.
+
+### Clear previous branches from PC
+New sprint has started and you need to remove feature/bug/change branches that were added to your pc during the previous sprint.
+
+#### Remove remote branches
+```
+git branch -r     
+     *to see remote branches on your local pc
+git remote prune origin
+git branch -r
+    *to verify changes were made
+```
+
+#### Remove local branches
+```
+git branch
+    *to see local branches on your pc
+git branch --merged | grep -v "\*" | xargs -n 1 git branch -d
+git branch
+    *to verify local branches were removed
+```
 
 ## Resources
 
