@@ -141,6 +141,7 @@ Okay, assuming you've installed git for windows and have git bash installed. Let
     //also works in bash
     gla
     ```
+
 ## Cmder
 
 To use bash with cmder you can specify bash to be your startup terminal.
