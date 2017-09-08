@@ -5,7 +5,7 @@ categories:
   - Software-Development
 tags:
   - AutoMapper
-  - C#
+  - CSharp
 ---
 
 ![header](/assets/posts/2017-08-09-automapper-wiki/header.jpg)

@@ -6,7 +6,6 @@ categories:
 tags:
   - git
   - bash
-  - C#
 ---
 
 ![header](/assets/posts/2017-09-07-git-bash-aliases/header.jpg)
