@@ -146,7 +146,7 @@ Okay, assuming you've installed git for windows and have git bash installed. Let
 
 To use bash with cmder you can specify bash to be your startup terminal.
 
-![startup settings](/assets/posts/2017-09-07-git-bash-aliases/cmder-startup.jpg)
+![startup settings](/assets/posts/2017-09-07-git-bash-aliases/cmder-startup.1.jpg)
 
 In my bash settings I had to put the following below instead of the default to get bash to load. It seems like they have an outdated git-for-windows directory reference. I also had issues with the variables used so I just kept it simple with the following command to open bash. You can specify the start directory to whatever you'd like.
 
@@ -154,7 +154,7 @@ In my bash settings I had to put the following below instead of the default to g
 C:\Program Files\Git\git-bash.exe -new_console:d:C:\
 ```
 
-![startup settings](/assets/posts/2017-09-07-git-bash-aliases/cmder-bash.jpg)
+![startup settings](/assets/posts/2017-09-07-git-bash-aliases/cmder-bash.1.jpg)
 
 ## VS Code Terminal
 
