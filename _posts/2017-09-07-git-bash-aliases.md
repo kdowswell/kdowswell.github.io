@@ -104,6 +104,8 @@ Okay, assuming you've installed git for windows and have git bash installed. Let
     function glf() { git log --all --grep="$1"; }
     ```
 
+test
+
 ## Cmder
 
 To use bash with cmder you can specify bash to be your startup terminal.
@@ -142,7 +144,7 @@ Then paste the following lines into the right settings override window.
 
 ## Summary
 
-So there you have it. git bash aliases to let you fly through your git commands. I'm going to be using this for a while but might explore using a solution like <https://gist.github.com/mwhite/6887990> instead to allow for using bash shorthand commands while having extended ability to use git aliases in other terminals.
+So there you have it. Git bash aliases to let you fly through your git commands. I'm going to be using this for a while but might explore using a solution like <https://gist.github.com/mwhite/6887990> instead to allow for using bash shorthand commands while having extended ability to use git aliases in other terminals.
 
 ```bash
 if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
