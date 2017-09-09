@@ -27,13 +27,13 @@ See [Introduction to Razor Pages in ASP.NET Core](https://docs.microsoft.com/en-
 
 1. Create an ASP.NET Core 2.0 Web Application
 
-I'm targeting .NET 4.6.1 but you can use whatever .NET flavor you'd like! Just make sure you're targeting ASP.NET Core **2.0** or higher.
+    I'm targeting .NET 4.6.1 but you can use whatever .NET flavor you'd like! Just make sure you're targeting ASP.NET Core **2.0** or higher.
 
-![new project dialog](/assets/posts/2017-09-09-razor-pages-url-tt-file/newproject.jpg)
+    ![new project dialog](/assets/posts/2017-09-09-razor-pages-url-tt-file/newproject.jpg)
 
 2. Add a SitePages.tt file to the root of your website project.
 
-I had a little trouble finding a template file from the add new item menu but I just use the [Add New File](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.AddNewFile) extension by Mads Kristensen. Either way. Once you have your tt file added to your project, just paste the content shown below and you should be in business.
+    I had a little trouble finding a template file from the add new item menu but I just use the [Add New File](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.AddNewFile) extension by Mads Kristensen. Either way. Once you have your tt file added to your project, just paste the content shown below and you should be in business.
 
 ## SitePages tt file
 
