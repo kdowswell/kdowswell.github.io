@@ -1,6 +1,8 @@
 ---
 title:  "Razor Pages Url tt File"
+excerpt: "I've loved the speed I'm able to code out page redirects and any kind of partial or layout references."
 header:
+  teaser: "/assets/posts/2017-09-09-razor-pages-url-tt-file/header.jpg"
 categories: 
   - Software-Development
 tags:

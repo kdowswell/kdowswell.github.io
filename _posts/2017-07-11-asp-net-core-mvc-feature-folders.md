@@ -1,6 +1,8 @@
 ---
 title:  "ASP.NET Core MVC Feature Folders"
+excerpt: "Feature Folders allows you to group your Models, Views, and Controllers all together."
 header:
+  teaser: "/assets/posts/2017-07-11-asp-net-core-mvc-feature-folders/header.jpg"
 categories: 
   - Software-Development
 tags:

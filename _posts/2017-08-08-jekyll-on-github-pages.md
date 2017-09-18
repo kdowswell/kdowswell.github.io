@@ -1,6 +1,8 @@
 ---
 title:  "Jekyll on GitHub Pages"
+excerpt: "Publish new content to your blog hosted on GitHub Pages for FREE!"
 header:
+  teaser: "/assets/posts/2017-08-08-jekyll-on-github-pages/header.jpg"
 categories: 
   - Software-Development
 tags:

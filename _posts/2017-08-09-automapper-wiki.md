@@ -1,6 +1,8 @@
 ---
 title:  "AutoMapper Wiki"
+excerpt: "Reference page for tips, tricks, and best practices I've found."
 header:
+  teaser: "/assets/posts/2017-08-09-automapper-wiki/header.jpg"
 categories: 
   - Software-Development
 tags:

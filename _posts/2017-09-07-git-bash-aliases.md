@@ -1,6 +1,8 @@
 ---
 title:  "Git Bash Aliases"
+excerpt: "I'll show you how to configure git aliases so that you can quickly preform your git commands without the ho-hum of whole words!"
 header:
+  teaser: "/assets/posts/2017-09-07-git-bash-aliases/header.jpg"
 categories: 
   - Software-Development
 tags:

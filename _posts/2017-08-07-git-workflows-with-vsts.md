@@ -1,6 +1,8 @@
 ---
 title:  "Git Workflows With VSTS"
+excerpt: "The gitflow branching and merging strategy has been great for us so far."
 header:
+  teaser: "/assets/posts/2017-08-07-git-workflows-with-vsts/header.jpg"
 categories: 
   - Software-Development
 tags:
