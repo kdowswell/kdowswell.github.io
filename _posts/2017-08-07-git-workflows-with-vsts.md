@@ -56,7 +56,6 @@ New sprint has started and you want to start working on a feature branch without
     *You will be given a command to enter to set the "upstream" of the server. Simply copy and paste the command into Cmdr and it will properly set it. Then run: git push*
          
 
-
 3. Create a pull request for your newly pushed code
     Ensure to associate your Pull request to the work item for your branch. 
   
@@ -87,11 +86,27 @@ git merge dev 
    solve merge issues, if any 
 git push origin feature-branch-name
 ```
+
+### Checkout remote feature-branch for pull request review etc
+```
+git checkout dev 
+git pull 
+git branch -r
+    shows you the remote branches you can checkout
+git checkout name_of_the_branch
+    do not include origin prefix
+```
+
+If you would like to make changes set the branch upstream to the origin branch. Then you will be able to `git push` to that origin branch if needed.
+```
+git branch -u origin/name_of_the_branch
+```
+
 ### Pull Request feature-branch -> dev
-Use VSTS pull request feature in the branches area to submit a request from your branch to dev for review.
+Use VSTS pull request feature in the branches area to submit a request. We use Branch Policies to ensure 1 person reviews it, a work item is linked, and the Merge Strategy is "No-fast-forward merge".
 
 ### Pull Request dev -> master
-When we do pull requests from dev to master we need to make sure we click that checkbox to "squash" changes when we do the complete on the pull request. this makes TeamCity only see one commit and make one build.
+We use the "Swash Merge" VSTS Branch Policy under "Enforce a merge Strategy". This will condense all the changes in a pull request into one commit with one parent.
 
 ### Clear previous branches from PC
 New sprint has started and you need to remove feature/bug/change branches that were added to your pc during the previous sprint.
@@ -104,6 +119,14 @@ git remote prune origin
 git branch -r
     *to verify changes were made
 ```
+
+Or you can set a global git config setting which will prune your branches on fetch.
+
+```
+git config --global fetch.prune true
+```
+
+Then, every time you do a `git pull` or `git fetch` your origin branches will be pruned.
 
 #### Remove local branches
 ```
