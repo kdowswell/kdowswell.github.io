@@ -8,6 +8,7 @@ categories:
 tags:
   - git
   - bash
+comments: true
 ---
 
 ![header](/assets/posts/2017-09-07-git-bash-aliases/header.jpg)

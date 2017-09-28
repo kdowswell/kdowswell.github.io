@@ -8,6 +8,7 @@ categories:
 tags:
   - ASP.NET Core
   - Razor Pages
+comments: true
 ---
 
 ![header](/assets/posts/2017-09-09-razor-pages-url-tt-file/header.jpg)

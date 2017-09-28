@@ -7,6 +7,7 @@ categories:
   - Software-Development
 tags:
   - ASP.NET
+comments: true
 ---
 
 ![header](/assets/posts/2017-07-11-asp-net-core-mvc-feature-folders/header.jpg)

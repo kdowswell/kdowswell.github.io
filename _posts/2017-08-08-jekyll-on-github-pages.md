@@ -7,6 +7,7 @@ categories:
   - Software-Development
 tags:
   - Jekyll
+comments: true
 ---
 
 ![header](/assets/posts/2017-08-08-jekyll-on-github-pages/header.jpg)

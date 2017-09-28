@@ -8,6 +8,7 @@ categories:
 tags:
   - AutoMapper
   - CSharp
+comments: true
 ---
 
 ![header](/assets/posts/2017-08-09-automapper-wiki/header.jpg)

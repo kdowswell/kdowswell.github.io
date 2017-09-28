@@ -8,6 +8,7 @@ categories:
 tags:
   - git
   - VSTS
+comments: true
 ---
 
 ![header](/assets/posts/2017-08-07-git-workflows-with-vsts/header.jpg)
