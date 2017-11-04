@@ -2,7 +2,7 @@
 title:  "Razor Pages Url tt File"
 excerpt: "I've loved the speed I'm able to code out page redirects and any kind of partial or layout references."
 header:
-  teaser: "/assets/posts/2017-09-09-razor-pages-url-tt-file/header.jpg"
+  teaser: /assets/posts/razor-pages-url-tt-file/header.jpg
 categories: 
   - Software-Development
 tags:
@@ -11,7 +11,7 @@ tags:
 comments: true
 ---
 
-![header](/assets/posts/2017-09-09-razor-pages-url-tt-file/header.jpg)
+![header]({% asset_path header.jpg %})
 
 ## Introduction
 
@@ -32,7 +32,7 @@ See [Introduction to Razor Pages in ASP.NET Core](https://docs.microsoft.com/en-
 
     I'm targeting .NET 4.6.1 but you can use whatever .NET flavor you'd like! Just make sure you're targeting ASP.NET Core **2.0** or higher.
 
-    ![new project dialog](/assets/posts/2017-09-09-razor-pages-url-tt-file/newproject.jpg)
+    ![new project dialog]({% asset_path newproject.jpg %})
 
 2. Add a SitePages.tt file to the root of your website project.
 

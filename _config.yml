@@ -185,6 +185,7 @@ gems:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+  - jekyll-liquify
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -240,7 +241,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: # true
       share: true
