@@ -11,7 +11,7 @@ tags:
 comments: true
 ---
 
-![header]({% asset_path header.jpg %})
+![header](/assets/posts/razor-pages-url-tt-file/header.jpg)
 
 ## Introduction
 
