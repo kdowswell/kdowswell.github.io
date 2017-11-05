@@ -50,13 +50,15 @@ $type-size-8                : 0.625em !default;  // ~10px
 $gray                       : #7a8288 !default;
 $dark-gray                  : mix(#000, $gray, 40%) !default;
 $darker-gray                : mix(#000, $gray, 60%) !default;
-$darkest-gray                : mix(#000, $gray, 80%) !default;
+$darker-gray-1              : mix(#000, $gray, 70%) !default;
+$darker-gray-2                : mix(#000, $gray, 80%) !default;
+$darker-gray-3                : mix(#000, $gray, 90%) !default;
 $light-gray                 : mix(#fff, $gray, 50%) !default;
 $lighter-gray               : mix(#fff, $gray, 90%) !default;
 
-$body-color                 : $dark-gray !default;
-$background-color           : $dark-gray !default;
-$code-background-color      : $darker-gray !default;
+$body-color                 : $light-gray !default;
+$background-color           : $darker-gray-2 !default;
+$code-background-color      : $darker-gray-3 !default;
 $code-background-color-dark : $light-gray !default;
 $text-color                 : $lighter-gray !default;
 $border-color               : $darker-gray !default;
