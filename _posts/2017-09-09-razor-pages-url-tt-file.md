@@ -32,7 +32,7 @@ See [Introduction to Razor Pages in ASP.NET Core](https://docs.microsoft.com/en-
 
     I'm targeting .NET 4.6.1 but you can use whatever .NET flavor you'd like! Just make sure you're targeting ASP.NET Core **2.0** or higher.
 
-    ![new project dialog]({% asset_path newproject.jpg %})
+    <!-- ![new project dialog]({% asset_path newproject.jpg %}) -->
 
 2. Add a SitePages.tt file to the root of your website project.
 
