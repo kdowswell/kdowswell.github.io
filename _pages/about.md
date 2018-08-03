@@ -1,6 +1,7 @@
 ---
 title:  "About Me"
 header: 
+layout: single
 ---
 
 ![header](/assets/images/about.jpg)

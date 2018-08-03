@@ -8,6 +8,7 @@ categories:
 tags:
   - ASP.NET
 comments: true
+layout: single
 ---
 
 ![header](/assets/posts/2017-07-11-asp-net-core-mvc-feature-folders/header.jpg)
