@@ -19,8 +19,6 @@ I've always been looking for easy ways to start blogging. Wordpress is nice, but
 
 So this brings us to a third option, hosting your blog on GitHub Pages using Jekyll on Windows. This strategy requires an understanding of the command line but that's it. After you've followed the steps below, you'll be able to simply publish new content to your blog hosted on GitHub Pages for FREE!
 
-Test123
-
 ## Installation
 
 1. Open PowerShell as Administrator and run
