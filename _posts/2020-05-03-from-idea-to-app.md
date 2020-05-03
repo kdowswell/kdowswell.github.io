@@ -33,19 +33,18 @@ published: false
 
 Color Psychology For Mobile Apps
 - https://growthtower.com/color-psychology-for-mobile-apps/
--Trust: Most chose the color blue (34%), followed by white (21%) and green (11%)
--Security: Blue came out on top (28%), followed by black (16%) and green (12%)
--Speed: Red was overwhelmingly the favorite (76%)
--Cheapness: Orange came first (26%), followed by yellow (22%) and brown (13%)
--High Quality: Black was the clear winner (43%), then blue (20%)
--High Tech: This was almost evenly split, with black the top choice (26%) and blue and gray second (both 23%)
--Reliability: Blue was the top choice (43%), followed by black (24%)
--Courage: Most chose purple (29%), then red (28%), and finally blue (22%)
--Fear/Terror: Red came in first (41%) followed by black (38%)
--Fun: Orange was the top choice (28%), followed closely by yellow (26%) and then purple (17%)
+  - **Trust**: Most chose the color blue (34%), followed by white (21%) and green (11%)
+  - **Security**: Blue came out on top (28%), followed by black (16%) and green (12%)
+  - **Speed**: Red was overwhelmingly the favorite (76%)
+  - **Cheapness**: Orange came first (26%), followed by yellow (22%) and brown (13%)
+  - **High Quality**: Black was the clear winner (43%), then blue (20%)
+  - **High Tech**: This was almost evenly split, with black the top choice (26%) and blue and gray second (both 23%)
+  - **Reliability**: Blue was the top choice (43%), followed by black (24%)
+  - **Courage**: Most chose purple (29%), then red (28%), and finally blue (22%)
+  - **Fear/Terror**: Red came in first (41%) followed by black (38%)
+  - **Fun**: Orange was the top choice (28%), followed closely by yellow (26%) and then purple (17%)
 
 Color Psychology In Depth
 - https://coschedule.com/blog/color-psychology-marketing/
 
-I use Colorhexa a lot when refigning a color choice or looking for complementary colors etc.
-- https://www.colorhexa.com/
+
