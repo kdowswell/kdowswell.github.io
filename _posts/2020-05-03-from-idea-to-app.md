@@ -1,15 +1,19 @@
 ---
 published: false
 ---
-## Quickly Create Ionic App
+## Create Ionic App Step by Step Guide
 
-### Figure Out Your Idea
-- Look at market
-	- What other apps are there that you'd like to make better
-- Review ideas you've had in past
-	- Are there any ideas that you have that you have been wanting to make?
-
-### 
+### The Idea
+- Is there a need for your product in the market?
+	- You need to talk to target users of your app to ensure need is there.
+	- Understand current pain points from target users.
+- Solving a problem you have personally
+	- You are already aware of the pain points and market options
+    
+### Design Brief
+- How would you describe your target design solution?
+- What are the features and personality of the product?
+- Who is it designed for and activities it is intended to encourage or enable?
 
 ### Primary Feature
 - This must be the easiest thing for users to do in your app.
@@ -23,10 +27,8 @@ published: false
     - Misc Features that might support your primary feature
     
 ### App Name
-- Don't spend too much time on this. Use name generator tools like [Business Name Generator](https://businessnamegenerator.com/).
-
-### Logo
-- I use Adobe Illustrator to create a simple text based logo for most projects. Then in later iterations will refign it to be more in line with my design.
+- https://ads.google.com/home/tools/keyword-planner/
+[Business Name Generator](https://businessnamegenerator.com/).
 
 ### Colors
 - Pick a color that matches your product energy and feel. Create mood board or get inspiration from apps in your industry
@@ -46,5 +48,14 @@ Color Psychology For Mobile Apps
 
 Color Psychology In Depth
 - https://coschedule.com/blog/color-psychology-marketing/
+
+### Logo
+- https://www.wix.com/createlogo6/logo_creator
+- https://www.freelogodesign.org/
+- https://logomakr.com/
+
+### Ionic App
+- https://ionicframework.com/start
+
 
 
