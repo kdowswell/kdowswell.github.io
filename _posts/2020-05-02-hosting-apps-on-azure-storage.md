@@ -12,6 +12,8 @@ https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-static-website
 
 ### Integrate a static website with Azure CDN
 https://docs.microsoft.com/en-us/azure/storage/blobs/static-website-content-delivery-network
+- This is needed for the custom domain name
+- Azure CDN also gives you a certificate and SSL configuration which is a huge plus!
 
 ### Custom Domain Name
 https://docs.microsoft.com/en-us/azure/storage/blobs/storage-custom-domain-name?tabs=azure-portal
