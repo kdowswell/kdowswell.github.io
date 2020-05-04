@@ -4,6 +4,9 @@ published: false
 ## Create Ionic App Step by Step Guide
 
 ### The Idea
+Coming up with an idea can seem like a huge thing to overcome. But breaking it down into simple steps can help!
+
+
 - Is there a need for your product in the market?
 	- You need to talk to target users of your app to ensure need is there.
 	- Understand current pain points from target users.
@@ -14,6 +17,10 @@ published: false
 - How would you describe your target design solution?
 - What are the features and personality of the product?
 - Who is it designed for and activities it is intended to encourage or enable?
+
+### Proto-Persona 
+Coming up with a proto-persona is key to understand the ideal user for your product.
+https://uxdesign.cc/ux-creating-proto-personas-76a1738401a2
 
 ### Primary Feature
 - This must be the easiest thing for users to do in your app.
