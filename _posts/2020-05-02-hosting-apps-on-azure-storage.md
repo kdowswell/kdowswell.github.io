@@ -2,7 +2,8 @@
 published: false
 ---
 
-## Hosting Angular/Ionic Apps For (Almost) FREE
+## Hosting Javascript Apps For (Almost) FREE
+Hosting an app can be expensive if you don't do it correctly. A lot of articles talk about pushing your client side apps to App Services or other options that are not cost effective. Azure Storage is the cheapest, fastest, and best option for most.
 
 ### Create App
 Create an app using your favorite framework and compile it for production. I use Azure Devops to release to my Azure Storage site. I will detail that in another post. 
