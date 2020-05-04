@@ -1,11 +1,11 @@
 ---
 published: false
 ---
-## Create Ionic App Step by Step Guide
+## Creating An App (From Idea to App Store)
+I wanted to give a somewhat high level journy of my process creating apps. I will write more on how I implement each step, but I will include some information on each step listed below. You will see a number of steps before we get anywhere near a line of code. We want to avoid writing code until we are sure about a few aspects about our software. Let's begin!
 
 ### The Idea
-Coming up with an idea can seem like a huge thing to overcome. But breaking it down into simple steps can help!
-
+Coming up with an idea can seem like a huge obstacle to overcome. But breaking it down into simple steps can help!
 
 - Is there a need for your product in the market?
 	- You need to talk to target users of your app to ensure need is there.
@@ -13,10 +13,12 @@ Coming up with an idea can seem like a huge thing to overcome. But breaking it d
 - Solving a problem you have personally
 	- You are already aware of the pain points and market options
     
-### Design Brief
+### Design Questions
 - How would you describe your target design solution?
 - What are the features and personality of the product?
 - Who is it designed for and activities it is intended to encourage or enable?
+
+### Elivator Pitch
 
 ### Proto-Persona 
 Coming up with a proto-persona is key to understand the ideal user for your product.
