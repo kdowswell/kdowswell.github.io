@@ -41,15 +41,8 @@ Research Tools:
 ### Feature Planning
 I like to use Miro for this step and list out all of my potential features. Then I will organize them using the **Feature Audit** template to focus in on features that are most important.
 
-
-
 ### App Name
-- https://ads.google.com/home/tools/keyword-planner/
-[Business Name Generator](https://businessnamegenerator.com/).
-
-
-Color Psychology In Depth
-- https://coschedule.com/blog/color-psychology-marketing/
+- [Business Name Generator](https://businessnamegenerator.com/).
 
 ### Logo
 - https://www.wix.com/createlogo6/logo_creator
@@ -57,4 +50,4 @@ Color Psychology In Depth
 - https://logomakr.com/
 
 ### Ionic App
-- https://ionicframework.com/start
+- https://ionicframework.com
