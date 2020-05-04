@@ -4,6 +4,10 @@ published: false
 ## Creating An App (From Idea to App Store)
 I wanted to give a somewhat high level journey of my process creating apps. I will write more on how I implement each step, but I will include some information on each step listed below. You will see a number of steps before we get anywhere near a line of code. We want to avoid writing code until we are sure about a few aspects about our software. Let's begin!
 
+I use OneNote and Miro for most of my steps below. Try them out or use a note taking app of your choice.
+- https://miro.com/
+- https://www.onenote.com/
+
 ### The Idea
 Coming up with an idea can seem like a huge obstacle to overcome. But breaking it down into simple steps can help!
 
@@ -27,22 +31,18 @@ Solution:
 Chapter 5, The User Experience Team of One
 https://rosenfeldmedia.com/books/the-user-experience-team-of-one/
 
+### Mood Boards
+Get pictures, colors, screenshots, and more to create a feel of the product you will create.
 
-### Proto-Persona 
-Coming up with a proto-persona is key to understand the ideal user for your product.
-https://uxdesign.cc/ux-creating-proto-personas-76a1738401a2
+Research Tools:
+- https://pageflows.com/
+- https://dribbble.com/
 
-### Primary Feature
-- This must be the easiest thing for users to do in your app.
-- This must also be the most differentiating feature you have to provide to people.
+### Feature Planning
+I like to use Miro for this step and list out all of my potential features. Then I will organize them using the **Feature Audit** template to focus in on features that are most important.
 
-### Secondary Features
-- Come up with a list of all of the other necessary features needed to launch
-	- Settings page
-    - User Login
-    - User Profile
-    - Misc Features that might support your primary feature
-    
+
+
 ### App Name
 - https://ads.google.com/home/tools/keyword-planner/
 [Business Name Generator](https://businessnamegenerator.com/).
