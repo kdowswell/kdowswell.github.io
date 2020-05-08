@@ -9,7 +9,7 @@ Pairing this up with an Azure Functions based API and you can reduce costs from 
 Azure Functions would need to be called 10,000,000 times to cost $1.80 for the month.
 
 ### Costs
-**Azure App Services **
+**Azure App Services**
 with SSL and Custom Domain name will run you somewhere around $54 based on their current calculations.
 
 **Azure Storage Account**
