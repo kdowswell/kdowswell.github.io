@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## Setup New Developer PC Quick!
 
