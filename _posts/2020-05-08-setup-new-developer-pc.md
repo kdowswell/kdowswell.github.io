@@ -1,18 +1,17 @@
 ---
 published: true
 ---
-## Setup New Developer PC Quick!
 
 Anytime I do something I want to find a way to automate it. This past Christmas I got a new PC and went through the processes of setting up my apps and settings needed for development work. Below is a guide on how to do this quickly.
 
 ### Install Chocolatey
-[https://chocolatey.org/install#individual](Install Choco)
+<https://chocolatey.org/install#individual>
 _Chocolatey has the largest online registry of Windows packages. Chocolatey packages encapsulate everything required to manage a particular piece of software into one deployment artifact by wrapping installers, executables, zips, and/or scripts into a compiled package file._ - Chocolatey Website
 
 I use Choco to install all my apps I need in a scripted way.
 
 ### Find Packages To Install
-[https://chocolatey.org/packages](Find Packages)
+<https://chocolatey.org/packages>
 For me this took some time to compile the list that I wanted but you can use the ones I have as a starting point and customize from there.
 
 ### Run Choco Install
