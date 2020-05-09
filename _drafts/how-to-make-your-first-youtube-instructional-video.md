@@ -10,3 +10,4 @@ tags:
 comments: true
 
 ---
+![](/uploads/How to Make Your First YouTube Instructional Video.png)
