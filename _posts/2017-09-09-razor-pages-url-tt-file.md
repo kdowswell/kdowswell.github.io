@@ -1,16 +1,17 @@
 ---
-title:  "Razor Pages Url tt File"
-excerpt: "I've loved the speed I'm able to code out page redirects and any kind of partial or layout references."
+title: Razor Pages Url tt File
+excerpt: I've loved the speed I'm able to code out page redirects and any kind of
+  partial or layout references.
 header:
-  teaser: /assets/posts/razor-pages-url-tt-file/header.jpg
-categories: 
-  - Software-Development
+  teaser: "/assets/posts/razor-pages-url-tt-file/header.jpg"
+categories:
+- Software-Development
 tags:
-  - ASP.NET Core
-  - Razor Pages
+- ASP.NET Core
+- Razor Pages
 comments: true
----
 
+---
 ![header](/assets/posts/razor-pages-url-tt-file/header.jpg)
 
 ## Introduction
@@ -30,11 +31,10 @@ See [Introduction to Razor Pages in ASP.NET Core](https://docs.microsoft.com/en-
 
 1. Create an ASP.NET Core 2.0 Web Application
 
-    I'm targeting .NET 4.6.1 but you can use whatever .NET flavor you'd like! Just make sure you're targeting ASP.NET Core **2.0** or higher.
-
+   I'm targeting .NET 4.6.1 but you can use whatever .NET flavor you'd like! Just make sure you're targeting ASP.NET Core **2.0** or higher.
 2. Add a SitePages.tt file to the root of your website project.
 
-    I had a little trouble finding a template file from the add new item menu but I just use the [Add New File](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.AddNewFile) extension by Mads Kristensen. Either way. Once you have your tt file added to your project, just paste the content shown below and you should be in business.
+   I had a little trouble finding a template file from the add new item menu but I just use the [Add New File](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.AddNewFile) extension by Mads Kristensen. Either way. Once you have your tt file added to your project, just paste the content shown below and you should be in business.
 
 ## SitePages tt file
 
@@ -110,7 +110,7 @@ namespace <#=System.Runtime.Remoting.Messaging.CallContext.LogicalGetData("Names
 #>
 ```
 
-My tt file is based on a gist <https://gist.github.com/niaher/bfa87f0aeda1204091fe>.
+My tt file is based on a gist [https://gist.github.com/niaher/bfa87f0aeda1204091fe](https://gist.github.com/niaher/bfa87f0aeda1204091fe).
 
 ## Using Your Shiny New Toy
 
@@ -119,11 +119,13 @@ Alright. Now you should be able to see the generated .cs file with all of your .
 Here are some examples of how I'm using it.
 
 In a view
+
 ```html
 <cancel-button asp-page="@SitePages.DashboardIndex"></cancel-button>
 ```
 
-In my Page Model http handlers
+In my Page Model HTTP handlers
+
 ```csharp
 public async Task<IActionResult> OnPostAsync()
 {
@@ -136,9 +138,9 @@ If you add a new page, just right click your SitePages.tt file and click "Run Cu
 
 ## Final Notes
 
-I hope you enjoy this little tt file helper for your Razor Pages projects. I threw the tt file together pretty quickly and so if you've got any suggestions etc.. best way to give feedback or chat would be via Twitter @KurtDowswell.
+I hope you enjoy this little tt file helper for your Razor Pages projects. I threw the tt file together pretty quickly and so if you've got any suggestions etc.. the best way to give feedback or chat would be via Twitter @KurtDowswell.
 
 ## References
 
-* <https://gist.github.com/niaher/bfa87f0aeda1204091fe>
-* <https://docs.microsoft.com/en-us/aspnet/core/mvc/razor-pages/?tabs=visual-studio>
+* [https://gist.github.com/niaher/bfa87f0aeda1204091fe](https://gist.github.com/niaher/bfa87f0aeda1204091fe)
+* [https://docs.microsoft.com/en-us/aspnet/core/mvc/razor-pages/?tabs=visual-studio](https://docs.microsoft.com/en-us/aspnet/core/mvc/razor-pages/?tabs=visual-studio)
