@@ -36,4 +36,12 @@ gRPC-Web allows you to have a contract between your client web app and a gRPC ba
    * `npm i --save google-protobuf`
    * `npm i --save-dev @types/google-protobuf`
    * `npm i --save @improbable-eng/grpc-web`
-5. 
+5. Create a proto file in your app directory
+   1. app/protos/Person.proto
+
+    syntax = "proto3";
+    message Person {
+      required string name = 1;
+      required int32 id = 2;
+      optional string email = 3;
+    }
