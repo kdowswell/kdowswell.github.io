@@ -21,10 +21,14 @@ gRPC-Web allows you to have a contract between your client web app and a gRPC ba
 
 1. Go here [`https://github.com/protocolbuffers/protobuf/releases/latest`](https://github.com/protocolbuffers/protobuf/releases/latest "https://github.com/protocolbuffers/protobuf/releases/latest")
    * download the appropriate file for your system, for me it was [protoc-3.11.4-win64.zip](https://github.com/protocolbuffers/protobuf/releases/download/v3.11.4/protoc-3.11.4-win64.zip)
-2. Add exe from download to SYSTEM PATH
-
-   I placed mine in c:/tools/protoc
-   * 
+   * Extract it
+   * Place the exe from the bin folder in a folder you want
+     * I put mine in C:/tools/protoc
+2. Add that exe location to your SYSTEM PATH
+   * System Properties -> Advanced -> Environment Variables ->System Variables
+   * Find PATH under System Variables and select it
+   * Click Edit 
+   * Add path of exe to this list
 3. Create an Angular App
    * [https://cli.angular.io/](https://cli.angular.io/ "https://cli.angular.io/")
 4. Install NPM Packages for Angular App
@@ -32,3 +36,4 @@ gRPC-Web allows you to have a contract between your client web app and a gRPC ba
    * `npm i --save google-protobuf`
    * `npm i --save-dev @types/google-protobuf`
    * `npm i --save @improbable-eng/grpc-web`
+5. 
