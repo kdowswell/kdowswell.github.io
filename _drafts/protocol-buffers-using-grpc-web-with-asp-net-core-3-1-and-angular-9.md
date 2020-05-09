@@ -27,7 +27,7 @@ gRPC-Web allows you to have a contract between your client web app and a gRPC ba
 2. Add that exe location to your SYSTEM PATH
    * System Properties -> Advanced -> Environment Variables ->System Variables
    * Find PATH under System Variables and select it
-   * Click Edit 
+   * Click Edit
    * Add path of exe to this list
 3. Create an Angular App
    * [https://cli.angular.io/](https://cli.angular.io/ "https://cli.angular.io/")
@@ -37,16 +37,19 @@ gRPC-Web allows you to have a contract between your client web app and a gRPC ba
    * `npm i --save-dev @types/google-protobuf`
    * `npm i --save @improbable-eng/grpc-web`
 5. Create a proto file in your app directory
-   1. app/protos/Person.proto
+   1. app/protos/person.proto
 
-    syntax = "proto3";
-    message Person {
-      required string name = 1;
-      required int32 id = 2;
-      optional string email = 3;
-    }
-
+   syntax = "proto3";
+   message Person {
+   required string name = 1;
+   required int32 id = 2;
+   optional string email = 3;
+   }
 6. Create a empty app/generated folder
 7. Run protoc in PowerShell to generate client files
 
-    protoc --plugin=protoc-gen-ts=".\node_modules\.bin\protoc-gen-ts.cmd" --js_out="import_style=commonjs,binary:./"  --ts_out="service=grpc-web:./" src/app/protos/label/label.proto
+    protoc --plugin=protoc-gen-ts=".\node_modules\.bin\protoc-gen-ts.cmd" --js_out="import_style=commonjs,binary:./"  --ts_out="service=grpc-web:./" src/app/protos/person.proto
+
+### References:
+
+[https://anthonygiretti.com/2020/03/29/grpc-asp-net-core-3-1-how-to-create-a-grpc-web-client-examples-with-angular-8-and-httpclient/](https://anthonygiretti.com/2020/03/29/grpc-asp-net-core-3-1-how-to-create-a-grpc-web-client-examples-with-angular-8-and-httpclient/ "https://anthonygiretti.com/2020/03/29/grpc-asp-net-core-3-1-how-to-create-a-grpc-web-client-examples-with-angular-8-and-httpclient/")
