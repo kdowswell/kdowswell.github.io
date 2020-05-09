@@ -45,3 +45,8 @@ gRPC-Web allows you to have a contract between your client web app and a gRPC ba
       required int32 id = 2;
       optional string email = 3;
     }
+
+6. Create a empty app/generated folder
+7. Run protoc in PowerShell to generate client files
+
+    protoc --plugin=protoc-gen-ts="REPLACE_WITH_YOUR_ANGULAR_APP_PATH\node_modules\.bin\protoc-gen-ts.cmd" --js_out="import_style=commonjs,binary:src/app/generated"  --ts_out="service=grpc-web:src/app/generated" src/app/protos/REPLACE_WITH_YOUR_PROTO_FILE_NAME.proto
