@@ -55,6 +55,12 @@ Run the following in your site directory
     git remote add origin https://github.com/your_username/your_username.github.io.git
     git push -u origin master
 
+## Writing Posts
+
+I have tried using VS Code, Prose, and most recently Forestry for creating content. I really like [https://app.forestry.io/](https://app.forestry.io/ "https://app.forestry.io/"). It gives a very easy to use text editor and allows you to switch between markdown and wisiwig editors. It has great resource management and makes saving posts and updating content super easy. 
+
+I also pair Forestry up with the Chrome extension [Grammarly](https://www.grammarly.com/). This gives great spelling and sentence structure feedback as you are creating posts!
+
 ## Resources
 
 * [https://jekyllrb.com/](https://jekyllrb.com/)
