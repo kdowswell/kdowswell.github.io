@@ -13,7 +13,7 @@ tags:
 comments: true
 
 ---
-I'm going to be creating an Angular 9 app on Windows 10 using gPRC-Web to communicate to gRPC endpoints hosted in a ASP.NET Core 3.1 API.
+I'm going to be creating an Angular 9 app on Windows 10 using gPRC-Web to communicate to gRPC endpoints hosted in an ASP.NET Core 3.1 API.
 
 gRPC-Web allows you to have a contract between your client web app and a gRPC backend service. For more see [https://grpc.io/blog/grpc-web-ga/](https://grpc.io/blog/grpc-web-ga/ "https://grpc.io/blog/grpc-web-ga/")
 
@@ -48,7 +48,7 @@ gRPC-Web allows you to have a contract between your client web app and a gRPC ba
 6. Create a empty app/generated folder
 7. Run protoc in PowerShell to generate client files
 
-    protoc --plugin=protoc-gen-ts=".\node_modules\.bin\protoc-gen-ts.cmd" --js_out="import_style=commonjs,binary:./"  --ts_out="service=grpc-web:./" src/app/protos/person.proto
+   protoc --plugin=protoc-gen-ts=".\\node_modules.bin\\protoc-gen-ts.cmd" --js_out="import_style=commonjs,binary:./"  --ts_out="service=grpc-web:./" src/app/protos/person.proto
 
 ### References:
 
