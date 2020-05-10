@@ -12,9 +12,9 @@ comments: true
 ---
 ![header](/assets/posts/2017-08-08-jekyll-on-github-pages/header.jpg)
 
-## Introduction
-
 _Updated: 5/10/20 Added new Ruby Installer for simple setup and section about Writing Posts._
+
+## Introduction
 
 I've always been looking for easy ways to start blogging. Wordpress is nice, but it requires hosting costs and admin dashboards to manage your site that just seem like too much effort. Sites like Medium are great, but you don't own the content and are at the mercy of their servers to host your content for its lifetime.
 
