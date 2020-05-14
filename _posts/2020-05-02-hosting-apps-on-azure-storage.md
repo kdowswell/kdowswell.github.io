@@ -36,6 +36,7 @@ Create an app using your favorite framework and compile it for production. I use
 [Microsoft Tutorial - Custom Domain Name](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-custom-domain-name?tabs=azure-portal)
 
 * In my DNS Settings on GoDaddy, I adjust the www CNAME entry to point to my yoursitename.azureeduge.net.
+* 
 
 ### HTTPS Redirect
 
