@@ -21,4 +21,3 @@ comments: false
 3. Run `forfiles /S /M *.css /C "cmd /c rename @file @fname.scss"`
 4. cd to your project directory root
 5. Run `ng config schematics.@schematics/angular:component.styleext scss`
-6. 
