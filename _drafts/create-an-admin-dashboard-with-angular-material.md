@@ -1,5 +1,5 @@
 ---
-title: Create An Admin Dashboard with Angular Material
+title: Create An Angular App With Sidebar, Header, and Footer with Angular Material
 excerpt: ''
 header:
   teaser: ''
@@ -11,3 +11,6 @@ tags:
 comments: false
 
 ---
+### Intro
+
+Need to create an Admin dashboard with navigation
