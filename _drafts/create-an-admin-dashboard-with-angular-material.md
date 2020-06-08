@@ -37,7 +37,7 @@ This module should contain things like:
 * components
 * directives
 * pipes
-*  models
+* models
 
 ### Add Core Module
 
@@ -52,19 +52,26 @@ This module should contain things like:
 * services
 * layout
 
-    ng g module core --module app
+  ng g module core --module app
 
 Modify the CoreModule class export to ensure it is only important via the AppModule.
 
-```
-export class CoreModule {
-  constructor( @Optional() @SkipSelf() parentModule: CoreModule) {
-    if (parentModule) {
-      throw new Error('CoreModule has already been loaded. You should only import Core modules in the AppModule only.');
+    import { NgModule, Optional, SkipSelf } from '@angular/core';
+    import { CommonModule } from '@angular/common';
+    
+    @NgModule({
+      declarations: [],
+      imports: [
+        CommonModule
+      ]
+    })
+    export class CoreModule {
+      constructor( @Optional() @SkipSelf() parentModule: CoreModule) {
+        if (parentModule) {
+          throw new Error('CoreModule has already been loaded. You should only import Core modules in the AppModule only.');
+        }
+      }
     }
-  }
-}
-```
 
 ### References
 
