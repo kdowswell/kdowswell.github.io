@@ -73,13 +73,29 @@ Modify the CoreModule class export to ensure it is only important via the AppMod
       }
     }
 
+### Add Angular Material
+
+    ng add @angular/material
+
 ### Add Layout Core Components
 
     ng g component core/layout/header --export=true
     ng g component core/layout/nav-menu --export=true
 
-### Modify App Component
+[https://material.angular.io/components/sidenav/overview](https://material.angular.io/components/sidenav/overview "https://material.angular.io/components/sidenav/overview")
 
+### Modify Components
+
+    <mat-toolbar>
+      <mat-toolbar-row class="toolbar">
+        <div class="toolbar-section">
+          Left Content
+        </div>
+        <div class="toolbar-section">
+    	  Right Content
+        </div>
+      </mat-toolbar-row>
+    </mat-toolbar>
     
 
 ### References
