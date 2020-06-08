@@ -54,6 +54,20 @@ This module should contain things like:
 
     ng g module core --module app
 
+Modify the CoreModule class export to ensure it is only important via the AppModule.
+
+```
+export class CoreModule {
+  constructor( @Optional() @SkipSelf() parentModule: CoreModule) {
+    if (parentModule) {
+      throw new Error('CoreModule has already been loaded. You should only import Core modules in the AppModule only.');
+    }
+  }
+}
+```
+
 ### References
+
+[https://medium.com/@rajaramtt/angular-style-guide-best-practices-e7ec08ad3226](https://medium.com/@rajaramtt/angular-style-guide-best-practices-e7ec08ad3226 "https://medium.com/@rajaramtt/angular-style-guide-best-practices-e7ec08ad3226")
 
 [https://www.freecodecamp.org/news/best-practices-for-a-clean-and-performant-angular-application-288e7b39eb6f/](https://www.freecodecamp.org/news/best-practices-for-a-clean-and-performant-angular-application-288e7b39eb6f/ "https://www.freecodecamp.org/news/best-practices-for-a-clean-and-performant-angular-application-288e7b39eb6f/")
