@@ -86,6 +86,8 @@ Modify the CoreModule class export to ensure it is only important via the AppMod
 
 ### Modify Components
 
+header.component.html
+
     <mat-toolbar>
       <mat-toolbar-row class="toolbar">
         <div class="toolbar-section">
@@ -97,6 +99,55 @@ Modify the CoreModule class export to ensure it is only important via the AppMod
       </mat-toolbar-row>
     </mat-toolbar>
     
+
+header component styles
+
+    .toolbar {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    
+    .toolbar-section {
+      display: flex;
+      flex-direction: row;
+    }
+    
+
+nav-menu.component.html
+
+    <mat-nav-list>
+      <mat-list-item>Realtime</mat-list-item>
+    </mat-nav-list>
+    
+
+app.component.html
+
+    <mat-sidenav-container class="container">
+    
+      <mat-sidenav mode="side" opened>
+        <h2>App Name</h2>
+        <app-nav-menu></app-nav-menu>
+      </mat-sidenav>
+    
+      <mat-sidenav-content>
+        <app-header></app-header>
+        <router-outlet></router-outlet>
+      </mat-sidenav-content>
+    
+    </mat-sidenav-container>
+    
+
+app component styles
+
+    .container {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: #eee;
+    }
 
 ### References
 
