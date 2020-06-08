@@ -27,6 +27,7 @@ fields:
 pages:
 - _posts/2020-05-08-setup-new-developer-pc.md
 - _posts/angular-9-app-running-in-docker-container.md
+- _posts/angular-9-theme-with-css-variables.md
 - _posts/convert-angular-app-from-css-to-scss.md
 - _posts/create-an-admin-dashboard-with-angular-material.md
 - _posts/how-to-make-your-first-youtube-instructional-video.md
