@@ -75,8 +75,11 @@ Modify the CoreModule class export to ensure it is only important via the AppMod
 
 ### Add Layout Core Components
 
-    ng g component core/layout/header
-    ng g component core/layout/sidenav
+    ng g component core/layout/header --export=true
+    ng g component core/layout/nav-menu --export=true
+
+### Modify App Component
+
     
 
 ### References
