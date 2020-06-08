@@ -13,4 +13,47 @@ comments: false
 ---
 ### Intro
 
-Need to create an Admin dashboard with navigation
+Starting a new Angular application with a blank canvas can be intimidating. In this tutorial, I will explain how to build the basic structure of your application and give a template for you to get started with for your own projects!
+
+### Prerequisites
+
+* Angular CLI
+* Node JS
+* NPM
+
+### Create Application
+
+1. Open a command prompt and navigate to the location you'd like to place your project. I place mine in a C:/Projects location.
+2. `ng new [yourappname]`
+
+### Add Shared Module Components
+
+Make sure to follow the [https://angular.io/guide/styleguide](https://angular.io/guide/styleguide "https://angular.io/guide/styleguide") when adding components. Here we will add our "shared" components for the app.
+
+This will help when important things like Angular Material into feature components so that you don't have to do that multiple times.
+
+This module should contain things like:
+
+* components
+* directives
+* pipes
+*  models
+
+### Add Core Module
+
+This will help keep your app module clean and give separation to tasks needed by the app.
+
+This module should contain things like:
+
+* authentication
+* guards
+* http
+* interceptors
+* services
+* layout
+
+    ng g module core --module app
+
+### References
+
+[https://www.freecodecamp.org/news/best-practices-for-a-clean-and-performant-angular-application-288e7b39eb6f/](https://www.freecodecamp.org/news/best-practices-for-a-clean-and-performant-angular-application-288e7b39eb6f/ "https://www.freecodecamp.org/news/best-practices-for-a-clean-and-performant-angular-application-288e7b39eb6f/")
