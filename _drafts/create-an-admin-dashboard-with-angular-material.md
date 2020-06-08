@@ -52,7 +52,7 @@ This module should contain things like:
 * services
 * layout
 
-  ng g module core --module app
+    ng g module core --module app
 
 Modify the CoreModule class export to ensure it is only important via the AppModule.
 
@@ -72,6 +72,12 @@ Modify the CoreModule class export to ensure it is only important via the AppMod
         }
       }
     }
+
+### Add Layout Core Components
+
+    ng g component core/layout/header
+    ng g component core/layout/sidenav
+    
 
 ### References
 
